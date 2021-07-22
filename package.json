@@ -1,0 +1,24 @@
+{
+  "name": "@dankolz/lock-service",
+  "version": "1.0.0",
+  "description": "exclusive locks in a single thread",
+  "main": "lock-service.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha",
+    "testDebug": "node_modules/mocha/bin/mocha --inspect --inspect-brk"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmergentIdeas/lock-service.git"
+  },
+  "keywords": [
+    "lock"
+  ],
+  "author": "Dan Kolz (Emergent Ideas)",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.1.1"
+  }
+}
